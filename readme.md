@@ -16,7 +16,7 @@ This script checks appointment slot availability for the Indian Embassy in the N
 - tabulate
 - pygame
 
-Install dependencies with:
+Clone the repo and install dependencies with:
 ```bash
 pip install requests beautifulsoup4 tabulate pygame
 ```
@@ -28,6 +28,11 @@ python appointment_tracker.py
 ```
 
 The script will display a table of slot availability and alert you if any green slot is found. Press any key to continue checking further when alerted.
+
+## Output Example
+Below is a sample screenshot of the output table:
+
+![Output Example](output_example.png)
 
 ## Notes
 - The script refreshes every 5 minutes automatically.
